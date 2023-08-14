@@ -39,6 +39,7 @@ export const ProductCard = ({ product }) => {
     >
       <h4>{product.title}</h4>
       by {product.author}
+      <div>$ {product.price}</div>
       <span
         style={{
           backgroundColor: "#cfcfea",
